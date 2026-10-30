@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="24dp" android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center_horizontal">
+    <TextView android:id="@+id/balance" android:textSize="16sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16dp"/>
+    <Button android:id="@+id/watchAd" android:text="Watch Ad (+0.1 pt)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/surveys" android:text="Surveys" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/withdraw" android:text="Withdraw (min Rs 50)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/profile" android:text="Profile" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/admin" android:text="Admin Dashboard" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

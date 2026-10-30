@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application android:label="All are Earn" android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-8736860565828395~2294437877"/>
+        <activity android:name=".LoginActivity" android:exported="true">
+            <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter>
+        </activity>
+        <activity android:name=".SignupActivity"/>
+        <activity android:name=".HomeActivity"/>
+        <activity android:name=".WithdrawActivity"/>
+        <activity android:name=".ProfileActivity"/>
+        <activity android:name=".SurveyActivity"/>
+        <activity android:name=".AdminActivity"/>
+    </application>
+</manifest>
